@@ -9,7 +9,7 @@ public class ManutentionEmployee extends Employee {
 	}
 
 	@Override
-	protected float calculSalary() {
+	public float calculSalary() {
 		return nbHours * multiplicator;
 	}
 	

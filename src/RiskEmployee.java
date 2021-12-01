@@ -1,4 +1,4 @@
 
 public interface RiskEmployee {
-	final int riskBonus = 200;
+	public final int riskBonus = 200;
 }
